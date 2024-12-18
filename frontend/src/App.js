@@ -13,7 +13,7 @@ function App() {
       const response = await fetch('http://51.20.77.105:9090/api/employees', {
         method: 'POST',
         headers: {
-          'Content-Type': 'application/json',
+          "Content-Type": "application/json",
         },
         body: JSON.stringify(employee),
       });
